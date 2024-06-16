@@ -4,9 +4,10 @@
 # Site settings
 title: Sjouke Kooistra
 description: |
-  F-K9 specialist 
-  Top-tier service dogs, trained and bred for excellence 
+  F-K9 specialist <br>
+  Top-tier service dogs, trained and bred for excellence <br>
   The highest standards for law enforcement, security, home security, and companionship.
+
 owner: Your Name # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
