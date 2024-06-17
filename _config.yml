@@ -8,9 +8,9 @@ description: |
   Top-tier service dogs, trained and bred for excellence <br>
   The highest standards for law enforcement, security, home security, and companionship.
 
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+owner: FrisianK9 # or company name
+first_published: 2006 # if migrating another site, the year of your first publish
+email: frisiank9@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
