@@ -127,3 +127,37 @@ layout: landing
 							</ul>
 						</div>
 					</section>
+
+<!-- CTA Section -->
+<section id="cta" class="wrapper style4">
+    <div class="inner">
+        <header>
+            <h2>Contact Us</h2>
+            <p>Reach out to us to discuss your unique requirements and discover how we can assist you with our expert K-9 training and services.</p>
+        </header>
+        <ul class="actions vertical">
+            <!-- Modify the "Contact Us" button to call JavaScript function -->
+            <li><a href="javascript:void(0);" onclick="toggleContactInfo()" class="button fit special">Contact Us</a></li>
+            <li><a href="https://gao921010.github.io/elements.html" class="button fit">Learn More</a></li>
+        </ul>
+        <!-- Hidden contact info section -->
+        <div id="contactInfo" style="display: none; margin-top: 20px;">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> info@example.com</p>
+            <p><strong>Telephone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> 1234 Elm Street, Springfield, IL 62704</p>
+        </div>
+    </div>
+</section>
+
+<script>
+    // JavaScript function to toggle visibility
+    function toggleContactInfo() {
+        var contactInfo = document.getElementById('contactInfo');
+        if (contactInfo.style.display === 'none' || contactInfo.style.display === '') {
+            contactInfo.style.display = 'block';
+        } else {
+            contactInfo.style.display = 'none';
+        }
+    }
+</script>
