@@ -128,8 +128,8 @@ layout: landing
             <li><a href="javascript:void(0);" onclick="toggleContactInfo()" class="button fit special">Contact Us</a></li>
             <li><a href="https://gao921010.github.io/elements.html" class="button fit">Learn More</a></li>
         </ul>
-        <!-- Hidden contact info section -->
-        <div id="contactInfo" style="display: none; margin-top: 20px;">
+        <!-- Hidden contact info section with a class for styling -->
+        <div id="contactInfo" class="contact-box" style="display: none;">
             <h3>Contact Information</h3>
             <p><strong>Email:</strong> info@example.com</p>
             <p><strong>Telephone:</strong> (123) 456-7890</p>
@@ -138,6 +138,7 @@ layout: landing
     </div>
 </section>
 
+<!-- JavaScript section -->
 <script>
     // JavaScript function to toggle visibility
     function toggleContactInfo() {
@@ -149,3 +150,16 @@ layout: landing
         }
     }
 </script>
+
+<!-- CSS for Contact Box added after JavaScript -->
+<style>
+    /* Box frame style for the contact information */
+    .contact-box {
+        border: 2px solid #ccc; /* Border for the box frame */
+        padding: 20px; /* Padding inside the box */
+        background-color: #fff; /* Background color of the box */
+        border-radius: 10px; /* Optional: Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for depth */
+        text-align: left; /* Align text to the left */
+    }
+</style>
