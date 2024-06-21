@@ -101,68 +101,28 @@ title: About Me
 							</div>
 						</section>
 					</section>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <style>
-        /* Style for hidden contact info */
-        #contactInfo {
-            display: none; /* Initially hide the contact info */
-            margin-top: 10px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-            max-width: 500px;
-            width: 100%;
-            transition: max-height 0.3s ease-out;
-            overflow: hidden;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
-            cursor: pointer;
-            border: none;
-        }
-
-        .button.special {
-            background-color: #28a745;
-        }
-    </style>
-</head>
-<body>				
-				
-				
-<!-- Contact Information Section -->
-<section id="cta" class="wrapper style4">
-    <div class="inner">
-        <header>
-            <h2>Contact Us</h2>
-            <p>Reach out to us to discuss your unique requirements and discover how we can assist you with our expert K-9 training and services.</p>
-        </header>
-        <ul class="actions vertical">
-            <li><button onclick="showContactInfo()" class="button special">Contact Us</button></li>
-            <li><a href="https://gao921010.github.io/elements.html" class="button">Learn More</a></li>
-        </ul>
-        <!-- Hidden contact info section -->
-        <div id="contactInfo">
-            <h3>Contact Information</h3>
-            <p><strong>Email:</strong> info@example.com</p>
-            <p><strong>Telephone:</strong> (123) 456-7890</p>
-            <p><strong>Address:</strong> 1234 Elm Street, Springfield, IL 62704</p>
+				 <section id="cta" class="wrapper style4">
+        <div class="inner">
+            <header>
+                <h2>Contact Us</h2>
+                <p>Reach out to us to discuss your unique requirements and discover how we can assist you with our expert K-9 training and services.</p>
+            </header>
+            <ul class="actions vertical">
+                <li><button onclick="showContactInfo()" class="button special">Contact Us</button></li>
+                <li><a href="https://gao921010.github.io/elements.html" class="button">Learn More</a></li>
+            </ul>
+            <!-- Hidden contact info section -->
+            <div id="contactInfo">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> info@example.com</p>
+                <p><strong>Telephone:</strong> (123) 456-7890</p>
+                <p><strong>Address:</strong> 1234 Elm Street, Springfield, IL 62704</p>
+            </div>
         </div>
-    </div>
+    </section>
 </section>
 
+<!-- Include JavaScript at the end -->
 <script>
     // Function to toggle the visibility of the contact information
     function showContactInfo() {
@@ -175,8 +135,41 @@ title: About Me
     }
 </script>
 
-</body>
-</html>
-				
-			
-			
+<!-- Include styles -->
+<style>
+    /* Style for hidden contact info */
+    #contactInfo {
+        display: none; /* Initially hide the contact info */
+        margin-top: 10px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        max-width: 500px;
+        width: 100%;
+        transition: max-height 0.3s ease-out;
+        overflow: hidden;
+    }
+
+    /* General button style */
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+    }
+
+    /* Specific style for "Contact Us" button */
+    .button.special {
+        background-color: red; /* Set the button color to red */
+    }
+
+    /* Hover effect for better user interaction */
+    .button.special:hover {
+        background-color: darkred; /* Darker red on hover */
+    }
+</style>
+
