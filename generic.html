@@ -2,10 +2,153 @@
 layout: page
 title: Credentials & Certifications
 ---
-	<h3>Lorem ipsum dolor</h3>
-	<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-	<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
-	<hr />
-	<h4>Feugiat aliquam</h4>
-	<p>Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat.</p>
-	<p>Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui, at vestibulum sit amet, auctor bibendum neque.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credentials & Certifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* 2 columns */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .grid-item .description {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .grid-item:hover img {
+            transform: scale(1.1); /* Slight zoom effect */
+        }
+
+        .grid-item:hover .description {
+            opacity: 1; /* Show description on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Credentials & Certifications</h1>
+    <div class="grid-container">
+        <!-- Grid Items -->
+        <div class="grid-item">
+            <img src="sample-directory/sample1.jpg" alt="PDF Scan 1">
+            <div class="description">
+                <p>Description for PDF Scan 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample2.jpg" alt="PDF Scan 2">
+            <div class="description">
+                <p>Description for PDF Scan 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample3.jpg" alt="PDF Scan 3">
+            <div class="description">
+                <p>Description for PDF Scan 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample4.jpg" alt="PDF Scan 4">
+            <div class="description">
+                <p>Description for PDF Scan 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample5.jpg" alt="PDF Scan 5">
+            <div class="description">
+                <p>Description for PDF Scan 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample6.jpg" alt="PDF Scan 6">
+            <div class="description">
+                <p>Description for PDF Scan 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample7.jpg" alt="PDF Scan 7">
+            <div class="description">
+                <p>Description for PDF Scan 7. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample8.jpg" alt="PDF Scan 8">
+            <div class="description">
+                <p>Description for PDF Scan 8. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample9.jpg" alt="PDF Scan 9">
+            <div class="description">
+                <p>Description for PDF Scan 9. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample10.jpg" alt="PDF Scan 10">
+            <div class="description">
+                <p>Description for PDF Scan 10. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample11.jpg" alt="PDF Scan 11">
+            <div class="description">
+                <p>Description for PDF Scan 11. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample12.jpg" alt="PDF Scan 12">
+            <div class="description">
+                <p>Description for PDF Scan 12. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample13.jpg" alt="PDF Scan 13">
+            <div class="description">
+                <p>Description for PDF Scan 13. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="sample-directory/sample14.jpg" alt="PDF Scan 14">
+            <div class="description">
+                <p>Description for PDF Scan 14. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
