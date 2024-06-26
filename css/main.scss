@@ -1384,11 +1384,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 		z-index: _misc(z-index-base);
 
-		/* Add these lines for flexbox layout */
-    		display: flex;
-   		justify-content: space-between;
-   		align-items: center;
-   		padding: 0 1em;
 
 		h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
@@ -1410,11 +1405,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 		
-		 /* Add this block for the logo styles */
-   		 .logo {
-                 width: 100px; /* Adjust size as needed */
-                 height: auto;
- 		   }
 
 		nav {
 			height: inherit;
