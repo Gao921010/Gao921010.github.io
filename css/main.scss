@@ -1528,7 +1528,7 @@ $baseurl: '{{ site.baseurl }}/images';
         width: 50px; /* Set a specific width */
         height: auto; /* Maintain aspect ratio */
         opacity: 0.4; /* 40% transparent */
-        margin: 1em 0; /* Add margin to create space around the logo */
+        margin: 1em auto; /* Add margin to create space around the logo */
     }
 
 		p {
