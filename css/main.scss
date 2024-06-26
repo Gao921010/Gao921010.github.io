@@ -1832,3 +1832,18 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+/* Custom Styles for Logo and Title */
+header#header .logo-and-title {
+  display: flex;
+  align-items: center;  /* Align items vertically in the center */
+}
+
+header#header .logo-and-title .logo {
+  height: 1em; /* Adjusts the height to match the font size */
+  margin-right: 10px; /* Adds some space between the logo and the title */
+}
+
+header#header .logo-and-title span {
+  font-size: 1em; /* Adjust to match the size of your actual header text */
+  font-weight: bold; /* Optional: if you want the title to be bold */
+}
