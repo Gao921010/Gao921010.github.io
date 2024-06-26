@@ -13,7 +13,7 @@ first_published: 2006 # if migrating another site, the year of your first publis
 email: frisiank9@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://frisiank9.com/" # the base hostname & protocol for your site
-logo: "/images/logo.png" 
+
 social:
   twitter: https://twitter.com/<username>
   github: https://github.com/<username>
