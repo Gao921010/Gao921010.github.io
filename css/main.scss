@@ -1407,8 +1407,8 @@ $baseurl: '{{ site.baseurl }}/images';
         height: auto; /* Maintain aspect ratio */
         margin-right: 10px; /* Adjust the margin as needed */
 	opacity: 0.8; /* Adjust the opacity as needed to add transparency */
-	animation: shake 0.5s ease-in-out infinite; /* Shake animation */
-        animation-delay: 10s; /* Delay of 10 seconds between each shake */
+	animation: shake 1.5s ease-in-out 10s infinite; /* Shake animation */
+        
 
 	    
     }
