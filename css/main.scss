@@ -1384,6 +1384,19 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 		z-index: _misc(z-index-base);
 
+		.logo-title {
+    display: flex;
+    align-items: center;
+    height: inherit;
+
+    .logo {
+        width: 50px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 10px; /* Adjust the margin as needed */
+    }
+}
+
+
 
 		h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
