@@ -1416,11 +1416,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	    
     }
-		.logo-link {
-    text-decoration: none; /* Remove the dotted line */
-    display: inline-block; /* Ensure it respects the inline layout */
-    vertical-align: middle; /* Aligns the logo correctly */
-}
+		
 }
 
 
